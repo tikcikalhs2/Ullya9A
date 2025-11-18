@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PROFILE</title>
+  <style>
+    body {
+      background-color: #FFCCCC;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .banner img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    nav {
+      background-color: #D8A7B1; /* Dusty pink */
+      padding: 15px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+    }
+
+    nav ul li {
+      padding: 15px 30px;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+    }
+
+    nav ul li:hover {
+      background-color: #C71585; /* Pink tua */
+      color: white;
+      border-radius: 5px;
+    }
+
+    .marquee-container {
+      background-color: #FFCC00;
+      padding: 10px 0;
+      margin: 20px 0;
+      font-weight: bold;
+    }
+
+    .products {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .product-card {
+      background-color: #FF99CC;
+      width: calc(25% - 15px);
+      border: 1px solid #000;
+      border-radius: 5px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 10px auto;
+    }
+
+    .product-name {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .product-price {
+      font-size: 14px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .product-card {
+        width: calc(50% - 10px);
+      }
+
+      nav ul {
+        flex-direction: column;
+      }
+
+      nav ul li {
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .product-card {
+        width: 100%;
+      }
+    }
+
+    /* Tambahan untuk shopping guide */
+    .shopping-guide {
+      background-color: #FFD6E0;
+      border-radius: 10px;
+      padding: 30px;
+      margin: 30px 0;
+      text-align: left;
+    }
+
+    .shopping-guide h2 {
+      text-align: center;
+      color: #C71585;
+    }
+
+    .shopping-guide ol {
+      line-height: 1.8;
+      font-size: 16px;
+    }
+
+    .shopping-guide p {
+      text-align: center;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>SCARLETT</h1>
+
+    <div class="banner">
+      <img src="img/banner2.png" alt="Scarlett Banner" />
+    </div>
+
+    <nav>
+      <ul>
+        <li>HOME</li>
+        <li>SHOPPING GUIDE</li>
+        <li>CATALOG</li>
+        <li>PROFIL</li>
+      </ul>
+    </nav>
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <!-- ??? Bagian Shopping Guide -->
+  <section class="shopping-guide">
+  
+  <h2>Profil Scarlett</h2>
+
+  <p style="text-align: center; font-size: 16px;">
+    Scarlett adalah brand kecantikan yang berfokus pada perawatan kulit dengan kandungan berkualitas,
+    aman digunakan, dan sudah terdaftar BPOM.
+  </p>
+
+  <ol>
+    <li><b>Visi</b> – Menjadi brand perawatan kulit terdepan yang menghadirkan produk berkualitas untuk semua kalangan.</li>
+    <li><b>Misi</b> – Menghadirkan rangkaian skincare & bodycare yang efektif, terjangkau, dan ramah kulit.</li>
+    <li><b>Keunggulan Produk</b> – Menggunakan bahan aktif seperti Niacinamide, AHA BHA, Glutathione, Vitamin C, dan lainnya.</li>
+    <li><b>Keamanan</b> – Semua produk telah lolos BPOM serta melalui uji dermatologi.</li>
+    <li><b>Komitmen Kami</b> – Memberikan pengalaman perawatan kulit terbaik untuk membuatmu tampil percaya diri setiap hari.</li>
+  </ol>
+
+  <p><i>“Glow and care with Scarlett—Cantik itu pilihan, rawat dari sekarang.”</i></p>
+
+  </section>
+
+</div>
+</body>
+</html>
+

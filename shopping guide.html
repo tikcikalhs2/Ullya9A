@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SHOPPING GUIDE</title>
+  <style>
+    body {
+      background-color: #FFCCCC;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .banner img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    nav {
+      background-color: #D8A7B1; /* Dusty pink */
+      padding: 15px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+    }
+
+    nav ul li {
+      padding: 15px 30px;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+    }
+
+    nav ul li:hover {
+      background-color: #C71585; /* Pink tua */
+      color: white;
+      border-radius: 5px;
+    }
+
+    .marquee-container {
+      background-color: #FFCC00;
+      padding: 10px 0;
+      margin: 20px 0;
+      font-weight: bold;
+    }
+
+    .products {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .product-card {
+      background-color: #FF99CC;
+      width: calc(25% - 15px);
+      border: 1px solid #000;
+      border-radius: 5px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 10px auto;
+    }
+
+    .product-name {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .product-price {
+      font-size: 14px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .product-card {
+        width: calc(50% - 10px);
+      }
+
+      nav ul {
+        flex-direction: column;
+      }
+
+      nav ul li {
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .product-card {
+        width: 100%;
+      }
+    }
+
+    /* Tambahan untuk shopping guide */
+    .shopping-guide {
+      background-color: #FFD6E0;
+      border-radius: 10px;
+      padding: 30px;
+      margin: 30px 0;
+      text-align: left;
+    }
+
+    .shopping-guide h2 {
+      text-align: center;
+      color: #C71585;
+    }
+
+    .shopping-guide ol {
+      line-height: 1.8;
+      font-size: 16px;
+    }
+
+    .shopping-guide p {
+      text-align: center;
+      font-style: italic;
+    }
+  .style1 {color: #000000}
+  </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>SCARLETT</h1>
+
+    <div class="banner">
+      <img src="img/banner2.png" alt="Scarlett Banner" />
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="index.html" class="style1">HOME</a></li>
+        <li><a href="shopping guide.html" class="style1">SHOPPING GUIDE</a></li>
+        <li><a href="catalog.html" class="style1">CATALOG</a></li>
+        <li><a href="profile.html" class="style1">PROFIL</a></li>
+      </ul>
+    </nav>
+
+    <p>&nbsp;</p>
+
+    <!-- 🛍️ Bagian Shopping Guide -->
+    <section class="shopping-guide">
+      <h2>Shopping Guide</h2>
+      <ol>
+        <li><strong>Pilih Produk:</strong> Telusuri katalog kami dan pilih produk SCARLETT favorit Anda.</li>
+        <li><strong>Tambahkan ke Keranjang:</strong> Klik tombol “Add to Cart” pada produk yang ingin Anda beli.</li>
+        <li><strong>Periksa Keranjang:</strong> Pastikan semua produk dan jumlah yang Anda pilih sudah benar.</li>
+        <li><strong>Isi Data Pengiriman:</strong> Masukkan alamat lengkap dan nomor telepon yang dapat dihubungi.</li>
+        <li><strong>Pilih Metode Pembayaran:</strong> Kami menerima pembayaran melalui transfer bank, e-wallet, dan COD (Cash On Delivery).</li>
+        <li><strong>Konfirmasi Pesanan:</strong> Setelah pembayaran berhasil, pesanan Anda akan segera kami proses.</li>
+        <li><strong>Terima Produk:</strong> Pesanan akan dikirim ke alamat Anda dalam waktu 2–5 hari kerja.</li>
+      </ol>
+      <p>✨ Nikmati pengalaman belanja mudah dan aman bersama <strong>SCARLETT</strong> ✨</p>
+    </section>
+
+  </div>
+</body>
+</html>
